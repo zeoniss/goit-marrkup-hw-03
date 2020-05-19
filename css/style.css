@@ -25,11 +25,7 @@ body {
     --text-title: #212121;
 }
 
-.busy {
-    text-align: center;
-}
-
-.title {
+.title-busy {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 0;
@@ -39,6 +35,16 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+}
+
+.container-busy {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list {
@@ -62,11 +68,20 @@ body {
 }
 
 .doing {
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
-    color: #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    background-color: rgba(47, 48, 58, 0.8);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -87,6 +102,8 @@ body {
 
 .font {
     background-color: wheat;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .container {
@@ -97,16 +114,23 @@ body {
     margin-right: auto;
 }
 
+.font-container {
+    background-color: wheat;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: teal;
 }
 
 .flex-element {
-    width: 308px;
+    width: 370px;
     height: 404px;
-    background-color: hotpink;
     margin-right: 30px;
 }
 
@@ -126,8 +150,12 @@ body {
     background-color: turquoise;
 }
 
-.middle {
-    text-align: center;
+.container-middle {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     list-style: none;
     background-color: #f5f4fa;
 }
@@ -146,8 +174,13 @@ body {
 }
 
 .size {
-    width: 278px;
+    width: 270px;
     height: 251px;
+}
+
+.space {
+    width: 370px;
+    height: 294px;
 }
 
 .nav-web {
@@ -173,7 +206,6 @@ body {
 }
 
 .features {
-    padding: 0;
     display: flex;
     margin-left: 86px;
 }
@@ -269,11 +301,21 @@ body {
 
 .details {
     display: flex;
-    align-items: baseline;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding-top: 94px;
     padding-left: 0;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ececec;
+}
+
+.details>.size+.size {
+    margin-left: 30px;
+}
+
+.details>.space+.space {
+    margin-left: 30px;
 }
 
 .texts {
@@ -395,6 +437,12 @@ body {
     color: white;
 }
 
+.break {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 
 /*Наши проекты*/
 
@@ -409,6 +457,8 @@ body {
 }
 
 .text-button {
+    margin: 0;
+    padding: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
@@ -417,6 +467,8 @@ body {
 }
 
 .text-title {
+    margin: 0;
+    padding: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -532,7 +584,7 @@ body {
 
 .container-foot {
     background-color: #2f303a;
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
