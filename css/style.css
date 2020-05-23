@@ -723,3 +723,16 @@ body {
 .buttom-picture {
     display: block;
 }
+
+.container-flex .card {
+    width: calc((100%-60px) / 3);
+}
+
+.container-flex .card {
+    margin-bottom: 30px;
+}
+
+.container-flex a {
+    display: block;
+    text-decoration: none;
+}
