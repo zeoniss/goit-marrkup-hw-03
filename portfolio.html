@@ -11,7 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css">
 
-    <body>
+    <body class="backgroung">
         <header>
             <nav class="container hat nav-main">
                 <a href="" class="decoration">
@@ -41,9 +41,10 @@
         </header>
 
         <main>
+            <h1 class="projects">Наши проекты</h1>
+
             <section class="container">
-                <h1 class="projects">Наши проекты</h1>
-                <ul class="details">
+                <ul class="detail break">
 
                     <li class="click">
                         <button type="button" class="button-list">Все</button>
@@ -53,152 +54,168 @@
                     <li class="click"><button type="button" class="button-list">Дизайн</button></li>
                     <li class="click"><button type="button" class="button-list">Маркетинг</button></li>
                 </ul>
-                <div class="container">
-                    <div class="flex-container">
+
+                <ul class="container-flex break">
+                    <li class="card">
+                        <a href="" class="decoration">
+                            <img class="buttom-picture" src="./images/macbook.jpg" alt="макбук" width="370" height="294">
+                            <div class="signature">
+                                <h2 class="text-title">Технокряк</h2>
+                                <p class="text-button">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
 
 
-                        <ul class="flex-element">
-                            <li>
-                                <a href="" class="decoration">
-                                    <img src="./images/macbook.jpg" alt="макбук" width="370" height="294">
-                                    <h2 class="text-title">Технокряк</h2>
-                                    <p class="text-button">Веб-сайт</p>
-
-                                </a>
-                            </li>
-
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration"> <img src="./images/basket.jpg" alt="баскетбол" width="370" height="294">
-                                        <h2 class="text-title">Постер New Orlean vs Golden Stars</h2>
-                                        <p class="text-button">Дизайн</p>
-
-                                    </a>
-                                </li>
-
+                    <li class="card">
+                        <a href="" class="decoration"> <img class="buttom-picture" src="./images/basket.jpg" alt="баскетбол" width="370" height="294">
+                            <div class="signature">
+                                <h2 class="text-title">Постер New Orlean vs Golden Stars</h2>
+                                <p class="text-button">Дизайн</p>
                             </div>
 
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration">
-                                        <img src="./images/seafood.jpg" alt="морская еда" width="370" height="294">
-                                        <h2 class="text-title">Ресторан Seafood</h2>
-                                        <p class="text-button">Приложение</p>
-                                </li>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="" class="decoration">
+                            <img class="buttom-picture" src="./images/seafood.jpg" alt="морская еда" width="370" height="294">
+                            <div class="signature">
+                                <h2 class="text-title">Ресторан Seafood</h2>
+                                <p class="text-button">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+
+
+
+                    <li class="card">
+                        <a href="" class="decoration">
+                            <img class="buttom-picture" src="./images/headphones.jpg" alt="наушники" width="370" height="294">
+                            <div class="signature">
+                                <h2 class="text-title">Проект Prime</h2>
+                                <p class="text-button">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="card">
+                        <a href="" class="decoration"> <img class="buttom-picture" src="./images/box.jpg" alt="короб" width="370" height="294">
+                            <div class="signature"></div>
+                            <h2 class="text-title">Проект Boxes</h2>
+                            <p class="text-button">Приложение</p>
                             </div>
 
-
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration">
-                                        <img src="./images/headphones.jpg" alt="наушники" width="370" height="294">
-                                        <h2 class="text-title">Проект Prime</h2>
-                                        <p class="text-button">Маркетинг</p>
-                                    </a>
-                                </li>
-
-                            </div>
-                            <div class="flex-element">
-
-                                <li>
-                                    <a href="" class="decoration"> <img src="./images/box.jpg" alt="короб" width="370" height="294">
-                                        <h2 class="text-title">Проект Boxes</h2>
-                                        <p class="text-button">Приложение</p>
+                        </a>
+                    </li>
 
 
-                                    </a>
-                                </li>
-                            </div>
 
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration">
-                                        <img src="./images/displays.jpg" alt="дисплей" width="370" height="294">
-                                        <h2 class="text-title">Inspiration has no Borders</h2>
-                                        <p class="text-button">Веб-сайт</p>
+                    <li class="card">
+                        <a href="" class="decoration">
+                            <img src="./images/displays.jpg" alt="дисплей" width="370" height="294">
+                            <h2 class="text-title">Inspiration has no Borders</h2>
+                            <p class="text-button">Веб-сайт</p>
 
-                                    </a>
-                                </li>
-                            </div>
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration">
-                                        <img src="./images/journal.jpg" alt="журнал" width="370" height="294">
-                                        <h2 class="text-title">Издание Limited Edition</h2>
-                                        <p class="text-button">Дизайн</p>
+                        </a>
+                    </li>
+                    </div>
+                    <div class="flex-element">
+                        <li>
+                            <a href="" class="decoration">
+                                <img src="./images/journal.jpg" alt="журнал" width="370" height="294">
+                                <h2 class="text-title">Издание Limited Edition</h2>
+                                <p class="text-button">Дизайн</p>
 
-                                    </a>
-                                </li>
-                            </div>
+                            </a>
+                        </li>
+                    </div>
 
 
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration">
-                                        <img src="./images/label.jpg" alt="ярлык" width="370" height="294">
-                                        <h2 class="text-title">Проект LAB</h2>
-                                        <p class="text-button">Маркетинг</p>
+                    <div class="flex-element">
+                        <li>
+                            <a href="" class="decoration">
+                                <img src="./images/label.jpg" alt="ярлык" width="370" height="294">
+                                <h2 class="text-title">Проект LAB</h2>
+                                <p class="text-button">Маркетинг</p>
 
-                                    </a>
-                                </li>
-                            </div>
+                            </a>
+                        </li>
+                    </div>
 
-                            <div class="flex-element">
-                                <li>
-                                    <a href="" class="decoration">
+                    <div class="flex-element">
+                        <li>
+                            <a href="" class="decoration">
 
-                                        <img src="./images/displays.jpg" alt="дисплей" width="370" height="294">
-                                        <h2 class="text-title">Growing Business</h2>
-                                        <p class="text-button">Приложение</p>
+                                <img src="./images/displays.jpg" alt="дисплей" width="370" height="294">
+                                <h2 class="text-title">Growing Business</h2>
+                                <p class="text-button">Приложение</p>
 
-                                    </a>
-                                </li>
-                            </div>
+                            </a>
+                        </li>
+                    </div>
                     </div>
             </section>
         </main>
-        <footer class="container">
+        <footer class="container-footer">
             <div class="footer-main">
-                <div class="footer-left">
-                    <address class="footer-adress">
+                <div class="footer-flex">
+                    <div class="logo-address">
                         <a href="" class="decorate">
                             <span class="foot-web">Web</span>
                             <span class="foot-studio">Studio</span>
                         </a>
-        
-                        <p class="footer-text">г.Киев, п-т Леси Украинки,26</p>
-        
-                        <a class="footer-link footer-text" href="">info@example.com</a>
-                        <a class="footer-link" href="">+38 099 111 11 11</a>
+                        <address>
+                        <p class="address">г.Киев, п-т Леси Украинки,26</p>
+                        <ul class="cont break">
+                            <li class="item">
+                                <a href="info@example.com" class="footer-contacts">
+                                    info@example.com
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="tel:+380991111111" class="footer-contacts">
+                                    +38 099 111 11 11
+                                </a>
+                            </li>
+                        </ul>
                     </address>
-                </div>
-                <div class="footer-center">
-                    <b class="action">Присоединяйтесь</b>
-                    <ul class="erace social-networks">
-                        <li>
-                            <a href=" " aria-label="ссылка на Инстаграмм ">
-                                Instagream
+                    </div>
+                    <div class="join-us">
+                        <p class="title">присоединяйтесь</p>
+                        <ul class="footer-links break">
+                            <li>
+                                <a href="https://instagram.com" aria-label="Ссылка на Instagram">
+                                Instagram
                             </a>
-                        </li>
-                        <li>
-                            <a href=" " aria-label="ссылка на Твиттер ">
-                                Tweeter
+                            </li>
+                            <li>
+                                <a href="https://twitter.com" aria-label="Ссылка на Twitter">
+                                Twitter
                             </a>
-                        </li>
-                        <li>
-                            <a href=" " aria-label="ссылка на Фейсбук ">
+                            </li>
+                            <li>
+                                <a href="https://facebook.com" aria-label="Ссылка на Facebook">
                                 Facebook
                             </a>
-                        </li>
-                        <li>
-                            <a href=" " aria-label="ссылка на ЛинкедИн ">
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com" aria-label="Ссылка на LinkedIn">
                                 LinkedIn
                             </a>
-                        </li>
-                    </ul>
-
-                    <button type="button" class="button-follower">Подписаться</button>
-                    <p>2020 &#10072; Developed by GoIT Students</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <p class="title">подпишитесь на рассылку</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <button type="button" class="button-footer">Подписаться</button>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p class="authors" lang="en">2020 | Developed by GoIT Students</p>
                 </div>
             </div>
         </footer>

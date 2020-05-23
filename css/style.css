@@ -506,6 +506,7 @@ body {
 .button-list:hover,
 .button-list:focus {
     color: white;
+    background: var(--accent-color);
 }
 
 .break {
@@ -558,6 +559,10 @@ body {
 
 /*Подвал*/
 
+.address {
+    margin-top: 10px;
+}
+
 .foot-web {
     margin-top: 48px;
     font-family: Raleway;
@@ -566,6 +571,21 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196f3;
+}
+
+.footer-main {
+    background-color: #2f303a;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .foot-studio {
@@ -582,7 +602,28 @@ body {
     color: white;
 }
 
-.foot-adress {
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.container-footer .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.container-footer .adress {
     margin-top: 10px;
     text-decoration: none;
     font-family: Roboto;
@@ -594,70 +635,91 @@ body {
     color: #ffffff;
 }
 
-.foot-join {
-    margin: 0;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.foot-link a {
+.footer-links a {
     margin-top: 0;
     text-decoration: none;
     color: #afb1b8;
 }
 
-.foot-link a:hover,
-.foot-link a:focus {
+.footer-links a:hover,
+.footer-links a:focus {
     color: var(--accent-color);
 }
 
-.foot-mail {
+.join-us .footer-links {
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    display: flex;
 }
 
-.foot-phone {
-    text-decoration: none;
-    font-family: Roboto;
+.address,
+.footer-links-title,
+.subscribe-title {
+    color: white;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
 }
 
 .decorate {
-    text-decoration: none;
-    margin-top: 48px;
-}
-
-.foot-end {
-    margin: 0;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 2;
-    text-align: center;
+    color: var(--accent-color);
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
 }
 
-.container-foot {
-    background-color: #2f303a;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.container-footer {
+    padding-top: 48px;
+}
+
+.cont>.item {
+    margin-top: 9px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/*Портфолио*/
+
+.background {
+    background-color: #ffffff;
+    font-family: roboto, sans-serif;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    padding-top: 93px;
+}
+
+.detail>.click+.click {
+    margin-left: 8px;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 34px;
+    padding-bottom: 94px;
+}
+
+.signature {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.buttom-picture {
+    display: block;
 }
