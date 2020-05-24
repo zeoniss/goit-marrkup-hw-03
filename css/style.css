@@ -109,6 +109,7 @@ main .text {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
     width: 1200px;
 }
 
@@ -161,8 +162,7 @@ main .text {
 .title-busy {
     width: 1200px;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0;
+    margin: 0;
     color: var(--text-title);
     font-style: normal;
     font-weight: 700;
@@ -175,6 +175,7 @@ main .text {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
     width: 1200px;
 }
 
@@ -248,7 +249,7 @@ main .text {
 }
 
 .container {
-    width: 1200px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -363,7 +364,7 @@ main .text {
     justify-content: center;
     list-style: none;
     margin: 0;
-    padding-top: 94px;
+    padding-top: 50px;
     padding-left: 0;
     padding-bottom: 94px;
     border-bottom: 1px solid white;
@@ -381,7 +382,7 @@ main .text {
     margin: 0;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7x;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -464,6 +465,62 @@ main .text {
 }
 
 
+/*Портфолио*/
+
+.background {
+    background-color: #ffffff;
+    font-family: roboto, sans-serif;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
+
+.detail>.click+.click {
+    margin-left: 8px;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.signature {
+    width: 370px;
+    height: 110px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.buttom-picture {
+    display: block;
+}
+
+.card {
+    width: 370px;
+    height: 404px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.container-flex .card:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.container-flex .card:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+
 /*кнопка*/
 
 .button-order {
@@ -510,6 +567,7 @@ main .text {
 /*Наши проекты*/
 
 .projects {
+    display: none;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -550,8 +608,13 @@ main .text {
 
 /*Подвал*/
 
+.logo-address {
+    padding-top: 48px;
+}
+
 .address {
     margin-top: 10px;
+    margin-bottom: 9px;
 }
 
 .foot-web {
@@ -603,6 +666,11 @@ main .text {
     text-decoration: none;
 }
 
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
+
 .container-footer .title {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -616,12 +684,12 @@ main .text {
 
 .container-footer .adress {
     margin-top: 10px;
-    text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    /* or 171% */
     letter-spacing: 0.03em;
     color: #ffffff;
 }
@@ -645,8 +713,14 @@ main .text {
 .address,
 .footer-links-title,
 .subscribe-title {
-    color: white;
     font-style: normal;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #ffffff;
 }
 
 .decorate {
@@ -672,50 +746,4 @@ main .text {
     justify-content: center;
     margin-top: 46px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-
-/*Портфолио*/
-
-.background {
-    background-color: #ffffff;
-    font-family: roboto, sans-serif;
-}
-
-.detail {
-    display: flex;
-    justify-content: center;
-    padding-top: 93px;
-}
-
-.detail>.click+.click {
-    margin-left: 8px;
-}
-
-.container-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.signature {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
-    border-right: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-.buttom-picture {
-    display: block;
-}
-
-.container-flex .card:nth-child(3n) {
-    margin-right: 0px;
-}
-
-.container-flex .card:nth-last-child(-n + 3) {
-    margin-bottom: 0;
 }
