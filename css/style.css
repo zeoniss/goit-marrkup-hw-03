@@ -101,7 +101,7 @@ main .text {
     margin: 0;
 }
 
-.place {
+.shop {
     padding-bottom: 94px;
 }
 
@@ -208,20 +208,6 @@ main .text {
     line-height: 1.7;
 }
 
-.foot-logo {
-    color: var(--accent-color);
-}
-
-.foot {
-    background-color: #2f303a;
-}
-
-.font {
-    background-color: white;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -235,12 +221,6 @@ main .text {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-}
-
-.hat {
-    height: 80px;
-    list-style: none;
-    background-color: #ffffff;
 }
 
 .main {
@@ -264,10 +244,6 @@ main .text {
     text-decoration: none;
 }
 
-.class-name {
-    list-style: none;
-}
-
 .size {
     width: 270px;
     height: 251px;
@@ -276,20 +252,6 @@ main .text {
 .space {
     width: 370px;
     height: 294px;
-}
-
-.nav-web {
-    color: var(--accent-color);
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.2;
-}
-
-.nav-studio {
-    color: var(--tital-color);
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.2;
 }
 
 
@@ -352,27 +314,8 @@ main .text {
     color: #757575;
 }
 
-.section-list {
-    color: white;
-    font-style: 400;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
-.section-list:focus
 /*Наша команда*/
-
-.class-name {
-    list-style: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
 
 .name {
     margin-top: 30px;
