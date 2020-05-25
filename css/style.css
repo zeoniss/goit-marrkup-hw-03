@@ -34,7 +34,7 @@ body {
     text-decoration: none;
 }
 
-.header>.container {
+.header {
     display: flex;
     align-items: center;
 }
@@ -93,37 +93,15 @@ main .text {
     color: #757575;
 }
 
-.center {
-    text-align: center;
-}
-
-.command {
+.team {
     background-color: white;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.container-team {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    width: 1200px;
 }
 
 .clients {
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
     background-color: white;
 }
 
@@ -138,11 +116,6 @@ main .text {
 
 .com>.member+.member {
     margin-left: 30px;
-}
-
-.command .break {
-    display: flex;
-    justify-content: center;
 }
 
 .section {
@@ -165,7 +138,8 @@ main .text {
 .title-busy {
     width: 1200px;
     text-align: center;
-    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 0;
     color: var(--text-title);
     font-style: normal;
     font-weight: 700;
@@ -180,16 +154,6 @@ main .text {
     margin-right: auto;
     padding-top: 50px;
     width: 1200px;
-}
-
-.container-busy {
-    width: 1200px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .list {
@@ -272,18 +236,14 @@ main .text {
     background-color: #ffffff;
 }
 
-.head {
+.main {
+    text-align: center;
     height: 600px;
     list-style: none;
     background-color: white;
 }
 
-.container-middle {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.middle {
     list-style: none;
     background-color: white;
 }
@@ -367,9 +327,9 @@ main .text {
     justify-content: center;
     list-style: none;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 0;
     padding-left: 0;
-    padding-bottom: 94px;
+    padding-bottom: 0;
     border-bottom: 1px solid white;
 }
 
