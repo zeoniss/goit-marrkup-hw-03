@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 
@@ -97,6 +98,11 @@ main .text {
     background-color: white;
     padding-top: 94px;
     padding-bottom: 94px;
+    margin: 0;
+}
+
+.place {
+    padding-bottom: 94px;
 }
 
 .clients {
@@ -135,11 +141,16 @@ main .text {
     --text-title: #212121;
 }
 
+.business {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .title-busy {
     width: 1200px;
     text-align: center;
-    margin-bottom: 50px;
     margin-top: 0;
+    margin-bottom: 50px;
     color: var(--text-title);
     font-style: normal;
     font-weight: 700;
@@ -148,12 +159,8 @@ main .text {
     letter-spacing: 0.03em;
 }
 
-.container-back {
+.back {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    width: 1200px;
 }
 
 .list {
@@ -325,11 +332,6 @@ main .text {
 .details {
     display: flex;
     justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding-top: 0;
-    padding-left: 0;
-    padding-bottom: 0;
     border-bottom: 1px solid white;
 }
 
@@ -508,6 +510,7 @@ main .text {
     background-color: #2196f3;
     border-color: transparent;
     color: white;
+    margin-bottom: 56px;
 }
 
 .button-list {
@@ -571,8 +574,16 @@ main .text {
 
 /*Подвал*/
 
-.logo-address {
-    padding-top: 48px;
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 56px;
 }
 
 .address {
@@ -590,13 +601,9 @@ main .text {
     color: #2196f3;
 }
 
-.footer-main {
+.footer {
     background-color: #2f303a;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 48px;
 }
 
 .footer-flex {
@@ -634,7 +641,7 @@ main .text {
     color: var(--accent-color);
 }
 
-.container-footer .title {
+.container .title {
     margin-top: 0px;
     margin-bottom: 0px;
     color: white;
@@ -645,7 +652,7 @@ main .text {
     text-transform: uppercase;
 }
 
-.container-footer .adress {
+.container .adress {
     margin-top: 10px;
     font-family: Roboto;
     font-style: normal;
@@ -694,10 +701,6 @@ main .text {
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-
-.container-footer {
-    padding-top: 48px;
 }
 
 .cont>.item {
