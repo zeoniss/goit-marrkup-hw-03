@@ -49,6 +49,9 @@ body {
     text-decoration: none;
     display: flex;
     margin-left: 85px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .site-nav>.item+.item {
@@ -95,7 +98,7 @@ main .text {
 }
 
 .command {
-    background-color: wh;
+    background-color: white;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -249,7 +252,7 @@ main .text {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -512,8 +515,8 @@ main .text {
     margin-bottom: 30px;
 }
 
-.container-flex .card:not(:nth-child(3n)) {
-    margin-right: 30px;
+.card:nth-child(3n) {
+    margin-right: 0px;
 }
 
 .container-flex .card:nth-last-child(-n + 3) {
