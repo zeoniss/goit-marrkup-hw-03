@@ -245,6 +245,7 @@ main .text {
 
 .decoration {
     text-decoration: none;
+    display: block;
 }
 
 .size {
